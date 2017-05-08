@@ -1,0 +1,681 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://maps.googleapis.com/maps/api/geocode/json?key=AIzaSyDV9bUiD_7qLrOz4bTwDj1Riw4k4evuY58&latlng=37.811714,-122.25817699999999
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=UTF-8
+      Date:
+      - Mon, 08 May 2017 22:21:11 GMT
+      Expires:
+      - Tue, 09 May 2017 22:21:11 GMT
+      Cache-Control:
+      - public, max-age=86400
+      Vary:
+      - Accept-Language
+      Access-Control-Allow-Origin:
+      - "*"
+      Server:
+      - mafe
+      Content-Length:
+      - '1522'
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Frame-Options:
+      - SAMEORIGIN
+      Alt-Svc:
+      - quic=":443"; ma=2592000; v="37,36,35"
+    body:
+      encoding: ASCII-8BIT
+      string: |
+        {
+           "results" : [
+              {
+                 "address_components" : [
+                    {
+                       "long_name" : "281",
+                       "short_name" : "281",
+                       "types" : [ "street_number" ]
+                    },
+                    {
+                       "long_name" : "Lenox Avenue",
+                       "short_name" : "Lenox Ave",
+                       "types" : [ "route" ]
+                    },
+                    {
+                       "long_name" : "Adams Point",
+                       "short_name" : "Adams Point",
+                       "types" : [ "neighborhood", "political" ]
+                    },
+                    {
+                       "long_name" : "Oakland",
+                       "short_name" : "Oakland",
+                       "types" : [ "locality", "political" ]
+                    },
+                    {
+                       "long_name" : "Alameda County",
+                       "short_name" : "Alameda County",
+                       "types" : [ "administrative_area_level_2", "political" ]
+                    },
+                    {
+                       "long_name" : "California",
+                       "short_name" : "CA",
+                       "types" : [ "administrative_area_level_1", "political" ]
+                    },
+                    {
+                       "long_name" : "United States",
+                       "short_name" : "US",
+                       "types" : [ "country", "political" ]
+                    },
+                    {
+                       "long_name" : "94610",
+                       "short_name" : "94610",
+                       "types" : [ "postal_code" ]
+                    },
+                    {
+                       "long_name" : "4674",
+                       "short_name" : "4674",
+                       "types" : [ "postal_code_suffix" ]
+                    }
+                 ],
+                 "formatted_address" : "281 Lenox Ave, Oakland, CA 94610, USA",
+                 "geometry" : {
+                    "location" : {
+                       "lat" : 37.81171399999999,
+                       "lng" : -122.258177
+                    },
+                    "location_type" : "ROOFTOP",
+                    "viewport" : {
+                       "northeast" : {
+                          "lat" : 37.8130629802915,
+                          "lng" : -122.2568280197085
+                       },
+                       "southwest" : {
+                          "lat" : 37.8103650197085,
+                          "lng" : -122.2595259802915
+                       }
+                    }
+                 },
+                 "place_id" : "ChIJN1OIIU6Hj4AREjJ-GxBWIM8",
+                 "types" : [ "street_address" ]
+              },
+              {
+                 "address_components" : [
+                    {
+                       "long_name" : "Adams Point",
+                       "short_name" : "Adams Point",
+                       "types" : [ "neighborhood", "political" ]
+                    },
+                    {
+                       "long_name" : "Oakland",
+                       "short_name" : "Oakland",
+                       "types" : [ "locality", "political" ]
+                    },
+                    {
+                       "long_name" : "Alameda County",
+                       "short_name" : "Alameda County",
+                       "types" : [ "administrative_area_level_2", "political" ]
+                    },
+                    {
+                       "long_name" : "California",
+                       "short_name" : "CA",
+                       "types" : [ "administrative_area_level_1", "political" ]
+                    },
+                    {
+                       "long_name" : "United States",
+                       "short_name" : "US",
+                       "types" : [ "country", "political" ]
+                    },
+                    {
+                       "long_name" : "94610",
+                       "short_name" : "94610",
+                       "types" : [ "postal_code" ]
+                    }
+                 ],
+                 "formatted_address" : "Adams Point, Oakland, CA 94610, USA",
+                 "geometry" : {
+                    "bounds" : {
+                       "northeast" : {
+                          "lat" : 37.817327,
+                          "lng" : -122.2493801
+                       },
+                       "southwest" : {
+                          "lat" : 37.808027,
+                          "lng" : -122.2615801
+                       }
+                    },
+                    "location" : {
+                       "lat" : 37.81164190000001,
+                       "lng" : -122.255463
+                    },
+                    "location_type" : "APPROXIMATE",
+                    "viewport" : {
+                       "northeast" : {
+                          "lat" : 37.817327,
+                          "lng" : -122.2493801
+                       },
+                       "southwest" : {
+                          "lat" : 37.808027,
+                          "lng" : -122.2615801
+                       }
+                    }
+                 },
+                 "place_id" : "ChIJwUcr3k-Hj4AR8Gg4ySZ61G0",
+                 "types" : [ "neighborhood", "political" ]
+              },
+              {
+                 "address_components" : [
+                    {
+                       "long_name" : "Oakland",
+                       "short_name" : "Oakland",
+                       "types" : [ "locality", "political" ]
+                    },
+                    {
+                       "long_name" : "Alameda County",
+                       "short_name" : "Alameda County",
+                       "types" : [ "administrative_area_level_2", "political" ]
+                    },
+                    {
+                       "long_name" : "California",
+                       "short_name" : "CA",
+                       "types" : [ "administrative_area_level_1", "political" ]
+                    },
+                    {
+                       "long_name" : "United States",
+                       "short_name" : "US",
+                       "types" : [ "country", "political" ]
+                    }
+                 ],
+                 "formatted_address" : "Oakland, CA, USA",
+                 "geometry" : {
+                    "bounds" : {
+                       "northeast" : {
+                          "lat" : 37.88472489999999,
+                          "lng" : -122.114775
+                       },
+                       "southwest" : {
+                          "lat" : 37.6322259,
+                          "lng" : -122.355881
+                       }
+                    },
+                    "location" : {
+                       "lat" : 37.8043637,
+                       "lng" : -122.2711137
+                    },
+                    "location_type" : "APPROXIMATE",
+                    "viewport" : {
+                       "northeast" : {
+                          "lat" : 37.88472489999999,
+                          "lng" : -122.1149234
+                       },
+                       "southwest" : {
+                          "lat" : 37.699198,
+                          "lng" : -122.3426648
+                       }
+                    }
+                 },
+                 "place_id" : "ChIJA-2qKIt9hYARZ5N1NdUVtHE",
+                 "types" : [ "locality", "political" ]
+              },
+              {
+                 "address_components" : [
+                    {
+                       "long_name" : "94610",
+                       "short_name" : "94610",
+                       "types" : [ "postal_code" ]
+                    },
+                    {
+                       "long_name" : "Oakland",
+                       "short_name" : "Oakland",
+                       "types" : [ "locality", "political" ]
+                    },
+                    {
+                       "long_name" : "Alameda County",
+                       "short_name" : "Alameda County",
+                       "types" : [ "administrative_area_level_2", "political" ]
+                    },
+                    {
+                       "long_name" : "California",
+                       "short_name" : "CA",
+                       "types" : [ "administrative_area_level_1", "political" ]
+                    },
+                    {
+                       "long_name" : "United States",
+                       "short_name" : "US",
+                       "types" : [ "country", "political" ]
+                    }
+                 ],
+                 "formatted_address" : "Oakland, CA 94610, USA",
+                 "geometry" : {
+                    "bounds" : {
+                       "northeast" : {
+                          "lat" : 37.823831,
+                          "lng" : -122.2165211
+                       },
+                       "southwest" : {
+                          "lat" : 37.798995,
+                          "lng" : -122.2642541
+                       }
+                    },
+                    "location" : {
+                       "lat" : 37.8104485,
+                       "lng" : -122.2398636
+                    },
+                    "location_type" : "APPROXIMATE",
+                    "viewport" : {
+                       "northeast" : {
+                          "lat" : 37.823831,
+                          "lng" : -122.2165211
+                       },
+                       "southwest" : {
+                          "lat" : 37.798995,
+                          "lng" : -122.2642541
+                       }
+                    }
+                 },
+                 "place_id" : "ChIJbdp1-kGHj4ARnuXAxr5HiZM",
+                 "postcode_localities" : [ "Oakland", "Piedmont" ],
+                 "types" : [ "postal_code" ]
+              },
+              {
+                 "address_components" : [
+                    {
+                       "long_name" : "Alameda County",
+                       "short_name" : "Alameda County",
+                       "types" : [ "administrative_area_level_2", "political" ]
+                    },
+                    {
+                       "long_name" : "California",
+                       "short_name" : "CA",
+                       "types" : [ "administrative_area_level_1", "political" ]
+                    },
+                    {
+                       "long_name" : "United States",
+                       "short_name" : "US",
+                       "types" : [ "country", "political" ]
+                    }
+                 ],
+                 "formatted_address" : "Alameda County, CA, USA",
+                 "geometry" : {
+                    "bounds" : {
+                       "northeast" : {
+                          "lat" : 37.9058239,
+                          "lng" : -121.4692139
+                       },
+                       "southwest" : {
+                          "lat" : 37.4545388,
+                          "lng" : -122.3737821
+                       }
+                    },
+                    "location" : {
+                       "lat" : 37.6016892,
+                       "lng" : -121.7195459
+                    },
+                    "location_type" : "APPROXIMATE",
+                    "viewport" : {
+                       "northeast" : {
+                          "lat" : 37.9056682,
+                          "lng" : -121.4692139
+                       },
+                       "southwest" : {
+                          "lat" : 37.4545388,
+                          "lng" : -122.3426648
+                       }
+                    }
+                 },
+                 "place_id" : "ChIJWRd5NDfyj4ARc30TGxHHxmg",
+                 "types" : [ "administrative_area_level_2", "political" ]
+              },
+              {
+                 "address_components" : [
+                    {
+                       "long_name" : "San Francisco-Oakland-Fremont, CA",
+                       "short_name" : "San Francisco-Oakland-Fremont, CA",
+                       "types" : [ "political" ]
+                    },
+                    {
+                       "long_name" : "California",
+                       "short_name" : "CA",
+                       "types" : [ "administrative_area_level_1", "political" ]
+                    },
+                    {
+                       "long_name" : "United States",
+                       "short_name" : "US",
+                       "types" : [ "country", "political" ]
+                    }
+                 ],
+                 "formatted_address" : "San Francisco-Oakland-Fremont, CA, CA, USA",
+                 "geometry" : {
+                    "bounds" : {
+                       "northeast" : {
+                          "lat" : 38.320945,
+                          "lng" : -121.4692749
+                       },
+                       "southwest" : {
+                          "lat" : 37.1073458,
+                          "lng" : -123.024066
+                       }
+                    },
+                    "location" : {
+                       "lat" : 37.8043507,
+                       "lng" : -121.8107079
+                    },
+                    "location_type" : "APPROXIMATE",
+                    "viewport" : {
+                       "northeast" : {
+                          "lat" : 38.320945,
+                          "lng" : -121.4692749
+                       },
+                       "southwest" : {
+                          "lat" : 37.1073458,
+                          "lng" : -123.024066
+                       }
+                    }
+                 },
+                 "place_id" : "ChIJGUN8-q6Ij4ARZ1tA_OojshE",
+                 "types" : [ "political" ]
+              },
+              {
+                 "address_components" : [
+                    {
+                       "long_name" : "San Francisco Metropolitan Area",
+                       "short_name" : "San Francisco Metropolitan Area",
+                       "types" : [ "political" ]
+                    },
+                    {
+                       "long_name" : "California",
+                       "short_name" : "CA",
+                       "types" : [ "administrative_area_level_1", "political" ]
+                    },
+                    {
+                       "long_name" : "United States",
+                       "short_name" : "US",
+                       "types" : [ "country", "political" ]
+                    }
+                 ],
+                 "formatted_address" : "San Francisco Metropolitan Area, CA, USA",
+                 "geometry" : {
+                    "bounds" : {
+                       "northeast" : {
+                          "lat" : 38.320945,
+                          "lng" : -121.4692139
+                       },
+                       "southwest" : {
+                          "lat" : 37.0538579,
+                          "lng" : -123.173825
+                       }
+                    },
+                    "location" : {
+                       "lat" : 37.7749274,
+                       "lng" : -122.4194254
+                    },
+                    "location_type" : "APPROXIMATE",
+                    "viewport" : {
+                       "northeast" : {
+                          "lat" : 38.320945,
+                          "lng" : -121.4692139
+                       },
+                       "southwest" : {
+                          "lat" : 37.0538579,
+                          "lng" : -123.173825
+                       }
+                    }
+                 },
+                 "place_id" : "ChIJE156BviCj4ARKrqKa5lkEu4",
+                 "types" : [ "political" ]
+              },
+              {
+                 "address_components" : [
+                    {
+                       "long_name" : "California",
+                       "short_name" : "CA",
+                       "types" : [
+                          "administrative_area_level_1",
+                          "establishment",
+                          "point_of_interest",
+                          "political"
+                       ]
+                    },
+                    {
+                       "long_name" : "United States",
+                       "short_name" : "US",
+                       "types" : [ "country", "political" ]
+                    }
+                 ],
+                 "formatted_address" : "California, USA",
+                 "geometry" : {
+                    "bounds" : {
+                       "northeast" : {
+                          "lat" : 42.0095169,
+                          "lng" : -114.131211
+                       },
+                       "southwest" : {
+                          "lat" : 32.528832,
+                          "lng" : -124.482003
+                       }
+                    },
+                    "location" : {
+                       "lat" : 36.778261,
+                       "lng" : -119.4179324
+                    },
+                    "location_type" : "APPROXIMATE",
+                    "viewport" : {
+                       "northeast" : {
+                          "lat" : 42.009378,
+                          "lng" : -114.131211
+                       },
+                       "southwest" : {
+                          "lat" : 32.5342852,
+                          "lng" : -124.4151821
+                       }
+                    }
+                 },
+                 "place_id" : "ChIJPV4oX_65j4ARVW8IJ6IJUYs",
+                 "types" : [
+                    "administrative_area_level_1",
+                    "establishment",
+                    "point_of_interest",
+                    "political"
+                 ]
+              },
+              {
+                 "address_components" : [
+                    {
+                       "long_name" : "United States",
+                       "short_name" : "US",
+                       "types" : [ "country", "political" ]
+                    }
+                 ],
+                 "formatted_address" : "United States",
+                 "geometry" : {
+                    "bounds" : {
+                       "northeast" : {
+                          "lat" : 71.5388001,
+                          "lng" : -66.885417
+                       },
+                       "southwest" : {
+                          "lat" : 18.7763,
+                          "lng" : 170.5957
+                       }
+                    },
+                    "location" : {
+                       "lat" : 37.09024,
+                       "lng" : -95.712891
+                    },
+                    "location_type" : "APPROXIMATE",
+                    "viewport" : {
+                       "northeast" : {
+                          "lat" : 49.38,
+                          "lng" : -66.94
+                       },
+                       "southwest" : {
+                          "lat" : 25.82,
+                          "lng" : -124.39
+                       }
+                    }
+                 },
+                 "place_id" : "ChIJCzYy5IS16lQRQrfeQ5K5Oxw",
+                 "types" : [ "country", "political" ]
+              }
+           ],
+           "status" : "OK"
+        }
+    http_version: 
+  recorded_at: Mon, 08 May 2017 22:21:11 GMT
+- request:
+    method: get
+    uri: http://mapgis.oaklandnet.com/ArcGIS/rest/services/OaklandStreets/GeocodeServer/findAddressCandidates?Street=281%20Lenox%20Ave&f=json&outFields=Loc_name&outSR%5Bwkid%5D=2227
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - text/plain; charset=utf-8
+      Etag:
+      - "-704098243"
+      Server:
+      - Microsoft-IIS/7.5
+      X-Powered-By:
+      - ASP.NET
+      Date:
+      - Mon, 08 May 2017 22:21:11 GMT
+      Content-Length:
+      - '400'
+    body:
+      encoding: ASCII-8BIT
+      string: '{"spatialReference":{"wkid":2227},"candidates":[{"address":"281 LENOX
+        AV","location":{"x":6053955.6942166388,"y":2122717.6854051203},"score":100,"attributes":{}},{"address":"282
+        LENOX AV","location":{"x":6053995.76160869,"y":2122722.1353251338},"score":79,"attributes":{}},{"address":"301
+        LENOX AV","location":{"x":6053951.9692246467,"y":2122611.8522530198},"score":68.480000000000004,"attributes":{}},{"address":"300
+        LENOX AV","location":{"x":6053988.9637206793,"y":2122596.6400930136},"score":63.240000000000002,"attributes":{}}]}'
+    http_version: 
+  recorded_at: Mon, 08 May 2017 22:21:11 GMT
+- request:
+    method: get
+    uri: http://mapgis.oaklandnet.com/ArcGIS/rest/services/StreetSweepNEW/MapServer/identify?f=json&geometry=%7B%22x%22:6053955.694216639,%22y%22:2122717.6854051203,%22spatialReference%22:%7B%22wkid%22:2227%7D%7D&imageDisplay=1322,529,96&mapExtent=%7B%22xmin%22:6050955,%22ymin%22:2119717,%22xmax%22:6056955,%22ymax%22:2125717,%22spatialReference%22:%7B%22wkid%22:2227%7D%7D&returnGeometry=false&tolerance=3
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - text/plain;charset=utf-8
+      Etag:
+      - "-1272156876"
+      Server:
+      - Microsoft-IIS/7.5
+      X-Powered-By:
+      - ASP.NET
+      Date:
+      - Mon, 08 May 2017 22:21:11 GMT
+      Content-Length:
+      - '606'
+    body:
+      encoding: ASCII-8BIT
+      string: '{"results":[{"layerId":0,"layerName":"StreetSweepingRoutes","value":"Lenox","displayFieldName":"NAME","attributes":{"OBJECTID":"2169","Shape":"Polyline","DYNAMAP_ID":"469172265","L_F_ADD":"200","L_T_ADD":"298","R_F_ADD":"201","R_T_ADD":"299","PREFIX":"","NAME":"Lenox","TYPE":"Ave","SUFFIX":"","FCC":"A41","POSTAL_L":"94610","POSTAL_R":"94610","ACC":"5","NAME_TYPE":"R","SHIELD":"","HWY_NUM":"","SEG_LEN":"0.0936","SPEED":"25","ONE_WAY":"","F_ZLEV":"0","T_ZLEV":"0","FT_COST":"0.22464","TF_COST":"0.22464","FT_DIR":"","TF_DIR":"","NAME_FLAG":"3","NOTES":"Null","ROUTE":"3B","DAY_ODD":"2nd
+        and 4th Mon","TIME_ODD":"9:00AM-12:00PM","DAY_EVEN":"2nd and 4th Tues","TIME_EVEN":"9:00AM-12:00PM","MAPNO":"3B","DOUBLECK":"Null","SIDEOFSTREET":"Null","Shape_Length":"494.335355"}}]}'
+    http_version: 
+  recorded_at: Mon, 08 May 2017 22:21:11 GMT
+- request:
+    method: post
+    uri: https://api.twilio.com/2010-04-01/Accounts/AC8b64e42d768f4f70906099b8a0d4fcf1/Messages.json
+    body:
+      encoding: US-ASCII
+      string: From=%2B13303575740&To=%2B15107596248&Body=You%27re+parked+in+a+street+sweeping+zone%21
+    headers:
+      Accept:
+      - application/json
+      Accept-Charset:
+      - utf-8
+      User-Agent:
+      - twilio-ruby/4.13.0 (ruby/x86_64-darwin16 2.3.4-p301)
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Authorization:
+      - Basic QUM4YjY0ZTQyZDc2OGY0ZjcwOTA2MDk5YjhhMGQ0ZmNmMTo0MTcwNzFkZTdlZjMyYmExOTc0MWI5NTRjYWU3MWE2YQ==
+      Content-Type:
+      - application/x-www-form-urlencoded
+  response:
+    status:
+      code: 201
+      message: CREATED
+    headers:
+      Access-Control-Allow-Credentials:
+      - 'true'
+      Access-Control-Allow-Headers:
+      - Accept, Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match,
+        If-Unmodified-Since
+      Access-Control-Allow-Methods:
+      - GET, POST, DELETE, OPTIONS
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Expose-Headers:
+      - ETag
+      Content-Type:
+      - application/json; charset=utf-8
+      Date:
+      - Mon, 08 May 2017 22:21:12 GMT
+      Strict-Transport-Security:
+      - max-age=15768000
+      Twilio-Request-Duration:
+      - '0.265'
+      Twilio-Request-Id:
+      - RQc93933c9e8534e9a8f16cf099e1844b2
+      X-Powered-By:
+      - AT-5000
+      X-Shenanigans:
+      - none
+      Content-Length:
+      - '842'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: '{"sid": "SMfcf07ccb28994009908eef634876f486", "date_created": "Mon,
+        08 May 2017 22:21:12 +0000", "date_updated": "Mon, 08 May 2017 22:21:12 +0000",
+        "date_sent": null, "account_sid": "AC8b64e42d768f4f70906099b8a0d4fcf1", "to":
+        "+15107596248", "from": "+13303575740", "messaging_service_sid": null, "body":
+        "Sent from your Twilio trial account - You''re parked in a street sweeping
+        zone!", "status": "queued", "num_segments": "1", "num_media": "0", "direction":
+        "outbound-api", "api_version": "2010-04-01", "price": null, "price_unit":
+        "USD", "error_code": null, "error_message": null, "uri": "/2010-04-01/Accounts/AC8b64e42d768f4f70906099b8a0d4fcf1/Messages/SMfcf07ccb28994009908eef634876f486.json",
+        "subresource_uris": {"media": "/2010-04-01/Accounts/AC8b64e42d768f4f70906099b8a0d4fcf1/Messages/SMfcf07ccb28994009908eef634876f486/Media.json"}}'
+    http_version: 
+  recorded_at: Mon, 08 May 2017 22:21:12 GMT
+recorded_with: VCR 3.0.3
