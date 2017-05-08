@@ -1,14 +1,9 @@
 require 'rails_helper'
 
-VCR.configure do |config|
-  config.cassette_library_dir = "fixtures/vcr_cassettes"
-  config.hook_into :webmock
-end
-
 RSpec.describe "Current Location", type: :request do
   describe "POST /current_locations" do
     context "in a street sweeping zone on a street sweeping day" do
-      it "sends me an SMS" do
+      it "doesn't explore" do
         VCR.use_cassette("full") do
           post current_location_path, params: {
             data: {

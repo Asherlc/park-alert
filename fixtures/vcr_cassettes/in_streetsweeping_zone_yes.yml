@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: get
-    uri: https://maps.googleapis.com/maps/api/geocode/json?key=AIzaSyDV9bUiD_7qLrOz4bTwDj1Riw4k4evuY58&latlng=37.811714,-122.25817699999999
+    uri: https://maps.googleapis.com/maps/api/geocode/json?key=AIzaSyDV9bUiD_7qLrOz4bTwDj1Riw4k4evuY58&latlng=37.795976,-122.170223
     body:
       encoding: US-ASCII
       string: ''
@@ -21,9 +21,9 @@ http_interactions:
       Content-Type:
       - application/json; charset=UTF-8
       Date:
-      - Mon, 08 May 2017 22:37:08 GMT
+      - Mon, 08 May 2017 22:37:06 GMT
       Expires:
-      - Tue, 09 May 2017 22:37:08 GMT
+      - Tue, 09 May 2017 22:37:06 GMT
       Cache-Control:
       - public, max-age=86400
       Vary:
@@ -33,7 +33,7 @@ http_interactions:
       Server:
       - mafe
       Content-Length:
-      - '1522'
+      - '1494'
       X-Xss-Protection:
       - 1; mode=block
       X-Frame-Options:
@@ -48,18 +48,18 @@ http_interactions:
               {
                  "address_components" : [
                     {
-                       "long_name" : "281",
-                       "short_name" : "281",
+                       "long_name" : "12000",
+                       "short_name" : "12000",
                        "types" : [ "street_number" ]
                     },
                     {
-                       "long_name" : "Lenox Avenue",
-                       "short_name" : "Lenox Ave",
+                       "long_name" : "Campus Drive",
+                       "short_name" : "Campus Dr",
                        "types" : [ "route" ]
                     },
                     {
-                       "long_name" : "Adams Point",
-                       "short_name" : "Adams Point",
+                       "long_name" : "Skyline-Hillcrest Estates",
+                       "short_name" : "Skyline-Hillcrest Estates",
                        "types" : [ "neighborhood", "political" ]
                     },
                     {
@@ -83,42 +83,37 @@ http_interactions:
                        "types" : [ "country", "political" ]
                     },
                     {
-                       "long_name" : "94610",
-                       "short_name" : "94610",
+                       "long_name" : "94619",
+                       "short_name" : "94619",
                        "types" : [ "postal_code" ]
-                    },
-                    {
-                       "long_name" : "4674",
-                       "short_name" : "4674",
-                       "types" : [ "postal_code_suffix" ]
                     }
                  ],
-                 "formatted_address" : "281 Lenox Ave, Oakland, CA 94610, USA",
+                 "formatted_address" : "12000 Campus Dr, Oakland, CA 94619, USA",
                  "geometry" : {
                     "location" : {
-                       "lat" : 37.81171399999999,
-                       "lng" : -122.258177
+                       "lat" : 37.7959763,
+                       "lng" : -122.1702232
                     },
                     "location_type" : "ROOFTOP",
                     "viewport" : {
                        "northeast" : {
-                          "lat" : 37.8130629802915,
-                          "lng" : -122.2568280197085
+                          "lat" : 37.7973252802915,
+                          "lng" : -122.1688742197085
                        },
                        "southwest" : {
-                          "lat" : 37.8103650197085,
-                          "lng" : -122.2595259802915
+                          "lat" : 37.7946273197085,
+                          "lng" : -122.1715721802915
                        }
                     }
                  },
-                 "place_id" : "ChIJN1OIIU6Hj4AREjJ-GxBWIM8",
+                 "place_id" : "ChIJG5Ytep6Ij4ARItXWxtc5WPY",
                  "types" : [ "street_address" ]
               },
               {
                  "address_components" : [
                     {
-                       "long_name" : "Adams Point",
-                       "short_name" : "Adams Point",
+                       "long_name" : "Skyline-Hillcrest Estates",
+                       "short_name" : "Skyline-Hillcrest Estates",
                        "types" : [ "neighborhood", "political" ]
                     },
                     {
@@ -142,40 +137,40 @@ http_interactions:
                        "types" : [ "country", "political" ]
                     },
                     {
-                       "long_name" : "94610",
-                       "short_name" : "94610",
+                       "long_name" : "94619",
+                       "short_name" : "94619",
                        "types" : [ "postal_code" ]
                     }
                  ],
-                 "formatted_address" : "Adams Point, Oakland, CA 94610, USA",
+                 "formatted_address" : "Skyline-Hillcrest Estates, Oakland, CA 94619, USA",
                  "geometry" : {
                     "bounds" : {
                        "northeast" : {
-                          "lat" : 37.817327,
-                          "lng" : -122.2493801
+                          "lat" : 37.8056979,
+                          "lng" : -122.1386501
                        },
                        "southwest" : {
-                          "lat" : 37.808027,
-                          "lng" : -122.2615801
+                          "lat" : 37.7804669,
+                          "lng" : -122.1721769
                        }
                     },
                     "location" : {
-                       "lat" : 37.81164190000001,
-                       "lng" : -122.255463
+                       "lat" : 37.7933719,
+                       "lng" : -122.1589938
                     },
                     "location_type" : "APPROXIMATE",
                     "viewport" : {
                        "northeast" : {
-                          "lat" : 37.817327,
-                          "lng" : -122.2493801
+                          "lat" : 37.8056979,
+                          "lng" : -122.1386501
                        },
                        "southwest" : {
-                          "lat" : 37.808027,
-                          "lng" : -122.2615801
+                          "lat" : 37.7804669,
+                          "lng" : -122.1721769
                        }
                     }
                  },
-                 "place_id" : "ChIJwUcr3k-Hj4AR8Gg4ySZ61G0",
+                 "place_id" : "ChIJ-4HQ-b6Ij4AR1sqw91_fg5k",
                  "types" : [ "neighborhood", "political" ]
               },
               {
@@ -235,19 +230,14 @@ http_interactions:
               {
                  "address_components" : [
                     {
-                       "long_name" : "94610",
-                       "short_name" : "94610",
+                       "long_name" : "94619",
+                       "short_name" : "94619",
                        "types" : [ "postal_code" ]
                     },
                     {
                        "long_name" : "Oakland",
                        "short_name" : "Oakland",
                        "types" : [ "locality", "political" ]
-                    },
-                    {
-                       "long_name" : "Alameda County",
-                       "short_name" : "Alameda County",
-                       "types" : [ "administrative_area_level_2", "political" ]
                     },
                     {
                        "long_name" : "California",
@@ -260,36 +250,35 @@ http_interactions:
                        "types" : [ "country", "political" ]
                     }
                  ],
-                 "formatted_address" : "Oakland, CA 94610, USA",
+                 "formatted_address" : "Oakland, CA 94619, USA",
                  "geometry" : {
                     "bounds" : {
                        "northeast" : {
-                          "lat" : 37.823831,
-                          "lng" : -122.2165211
+                          "lat" : 37.81842200000001,
+                          "lng" : -122.0945259
                        },
                        "southwest" : {
-                          "lat" : 37.798995,
-                          "lng" : -122.2642541
+                          "lat" : 37.753138,
+                          "lng" : -122.2104611
                        }
                     },
                     "location" : {
-                       "lat" : 37.8104485,
-                       "lng" : -122.2398636
+                       "lat" : 37.7936811,
+                       "lng" : -122.1462193
                     },
                     "location_type" : "APPROXIMATE",
                     "viewport" : {
                        "northeast" : {
-                          "lat" : 37.823831,
-                          "lng" : -122.2165211
+                          "lat" : 37.81842200000001,
+                          "lng" : -122.0945259
                        },
                        "southwest" : {
-                          "lat" : 37.798995,
-                          "lng" : -122.2642541
+                          "lat" : 37.753138,
+                          "lng" : -122.2104611
                        }
                     }
                  },
-                 "place_id" : "ChIJbdp1-kGHj4ARnuXAxr5HiZM",
-                 "postcode_localities" : [ "Oakland", "Piedmont" ],
+                 "place_id" : "ChIJyaCx-KSIj4ARsX5AMEqgGU4",
                  "types" : [ "postal_code" ]
               },
               {
@@ -536,10 +525,10 @@ http_interactions:
            "status" : "OK"
         }
     http_version: 
-  recorded_at: Mon, 08 May 2017 22:37:08 GMT
+  recorded_at: Mon, 08 May 2017 22:37:06 GMT
 - request:
     method: get
-    uri: http://mapgis.oaklandnet.com/ArcGIS/rest/services/OaklandStreets/GeocodeServer/findAddressCandidates?Street=281%20Lenox%20Ave&f=json&outFields=Loc_name&outSR%5Bwkid%5D=2227
+    uri: http://mapgis.oaklandnet.com/ArcGIS/rest/services/OaklandStreets/GeocodeServer/findAddressCandidates?Street=12000%20Campus%20Dr&f=json&outFields=Loc_name&outSR%5Bwkid%5D=2227
     body:
       encoding: US-ASCII
       string: ''
@@ -558,27 +547,71 @@ http_interactions:
       Content-Type:
       - text/plain; charset=utf-8
       Etag:
-      - "-704098243"
+      - '1071442828'
       Server:
       - Microsoft-IIS/7.5
       X-Powered-By:
       - ASP.NET
       Date:
-      - Mon, 08 May 2017 22:37:08 GMT
+      - Mon, 08 May 2017 22:37:07 GMT
       Content-Length:
-      - '400'
+      - '1983'
     body:
       encoding: ASCII-8BIT
-      string: '{"spatialReference":{"wkid":2227},"candidates":[{"address":"281 LENOX
-        AV","location":{"x":6053955.6942166388,"y":2122717.6854051203},"score":100,"attributes":{}},{"address":"282
-        LENOX AV","location":{"x":6053995.76160869,"y":2122722.1353251338},"score":79,"attributes":{}},{"address":"301
-        LENOX AV","location":{"x":6053951.9692246467,"y":2122611.8522530198},"score":68.480000000000004,"attributes":{}},{"address":"300
-        LENOX AV","location":{"x":6053988.9637206793,"y":2122596.6400930136},"score":63.240000000000002,"attributes":{}}]}'
+      string: '{"spatialReference":{"wkid":2227},"candidates":[{"address":"12000 CAMPUS
+        DR","location":{"x":6078550.8446395546,"y":2116242.8490470946},"score":100,"attributes":{}},{"address":"12001
+        CAMPUS DR","location":{"x":6078557.0530235618,"y":2116203.3337830603},"score":79,"attributes":{}},{"address":"11998
+        CAMPUS DR","location":{"x":6078468.0003514737,"y":2116224.3610470742},"score":68.5,"attributes":{}},{"address":"12500
+        CAMPUS DR","location":{"x":6079804.2395847142,"y":2114890.3291098326},"score":68.269999999999996,"attributes":{}},{"address":"12548
+        CAMPUS DR","location":{"x":6079749.4804806709,"y":2114731.3366616815},"score":68.239999999999995,"attributes":{}},{"address":"12650
+        CAMPUS DR","location":{"x":6079626.5862725526,"y":2114371.3981013447},"score":68.200000000000003,"attributes":{}},{"address":"12800
+        CAMPUS DR","location":{"x":6079710.1338566244,"y":2113511.2633165419},"score":68.129999999999995,"attributes":{}},{"address":"12900
+        CAMPUS DR","location":{"x":6079834.025632754,"y":2113334.5609163791},"score":68.090000000000003,"attributes":{}},{"address":"13000
+        CAMPUS DR","location":{"x":6080162.8303050548,"y":2113183.9488842487},"score":68.040000000000006,"attributes":{}},{"address":"13330
+        CAMPUS DR","location":{"x":6081122.3638099432,"y":2112858.0850759447},"score":67.900000000000006,"attributes":{}},{"address":"13348
+        CAMPUS DR","location":{"x":6081199.8383700252,"y":2112597.2510277033},"score":67.890000000000001,"attributes":{}},{"address":"13356
+        CAMPUS DR","location":{"x":6081374.4520661831,"y":2112514.7702596188},"score":67.890000000000001,"attributes":{}},{"address":"13500
+        CAMPUS DR","location":{"x":6082754.5878754705,"y":2111235.1840184331},"score":67.829999999999998,"attributes":{}},{"address":"13686
+        CAMPUS DR","location":{"x":6083429.9587560892,"y":2110307.0423215628},"score":67.75,"attributes":{}},{"address":"13700
+        CAMPUS DR","location":{"x":6083696.9398123473,"y":2109992.219537273},"score":67.75,"attributes":{}},{"address":"13846
+        CAMPUS DR","location":{"x":6085216.9097977579,"y":2108905.9957282543},"score":67.689999999999998,"attributes":{}},{"address":"13950
+        CAMPUS DR","location":{"x":6086297.978406772,"y":2108555.9291039407},"score":67.650000000000006,"attributes":{}},{"address":"8000
+        CAMPUS DR","location":{"x":6077823.3295668811,"y":2116124.115926981},"score":66.590000000000003,"attributes":{}},{"address":"1590
+        CAMPUS DR","location":{"x":6056523.9274350405,"y":2147977.0708366483},"score":63.530000000000001,"attributes":{}},{"address":"1520
+        CAMPUS DR","location":{"x":6055969.7620585263,"y":2148111.3721487671},"score":63.5,"attributes":{}},{"address":"1458
+        CAMPUS DR","location":{"x":6055920.9263464808,"y":2148594.1575572193},"score":63.469999999999999,"attributes":{}},{"address":"1408
+        CAMPUS DR","location":{"x":6055697.1230822653,"y":2149067.7491736561},"score":63.439999999999998,"attributes":{}},{"address":"1398
+        CAMPUS DR","location":{"x":6055901.2568424642,"y":2149226.5188378096},"score":63.439999999999998,"attributes":{}},{"address":"1298
+        CAMPUS DR","location":{"x":6055366.2730339617,"y":2149673.4851102233},"score":63.390000000000001,"attributes":{}},{"address":"1248
+        CAMPUS DR","location":{"x":6055237.9098338336,"y":2150111.4687906355},"score":63.369999999999997,"attributes":{}},{"address":"11999
+        CAMPUS DR","location":{"x":6078479.6560314894,"y":2116186.0969190449},"score":63.25,"attributes":{}},{"address":"12501
+        CAMPUS DR","location":{"x":6079765.9586246908,"y":2114901.9293658435},"score":63.130000000000003,"attributes":{}},{"address":"12549
+        CAMPUS DR","location":{"x":6079711.9591366351,"y":2114745.1984857023},"score":63.119999999999997,"attributes":{}},{"address":"12651
+        CAMPUS DR","location":{"x":6079589.3057605177,"y":2114385.8952533603},"score":63.100000000000001,"attributes":{}},{"address":"12801
+        CAMPUS DR","location":{"x":6079671.8752325922,"y":2113499.5893325359},"score":63.07,"attributes":{}},{"address":"12901
+        CAMPUS DR","location":{"x":6079810.2328007221,"y":2113302.406548351},"score":63.039999999999999,"attributes":{}},{"address":"13001
+        CAMPUS DR","location":{"x":6080147.2029130459,"y":2113147.1278922111},"score":63.020000000000003,"attributes":{}},{"address":"13331
+        CAMPUS DR","location":{"x":6081082.4481619149,"y":2112860.6820679456},"score":62.950000000000003,"attributes":{}},{"address":"13347
+        CAMPUS DR","location":{"x":6081172.1944019943,"y":2112568.3406276703},"score":62.950000000000003,"attributes":{}},{"address":"13355
+        CAMPUS DR","location":{"x":6081366.320418179,"y":2112475.6055235863},"score":62.950000000000003,"attributes":{}},{"address":"13501
+        CAMPUS DR","location":{"x":6082719.1325794309,"y":2111216.6659384072},"score":62.909999999999997,"attributes":{}},{"address":"13685
+        CAMPUS DR","location":{"x":6083397.5068520606,"y":2110283.6569775492},"score":62.880000000000003,"attributes":{}},{"address":"13701
+        CAMPUS DR","location":{"x":6083673.3390443176,"y":2109959.9239852428},"score":62.869999999999997,"attributes":{}},{"address":"13845
+        CAMPUS DR","location":{"x":6085205.0537337512,"y":2108867.7931682169},"score":62.840000000000003,"attributes":{}},{"address":"13951
+        CAMPUS DR","location":{"x":6086261.5640067309,"y":2108539.3763999194},"score":62.82,"attributes":{}},{"address":"8001
+        CAMPUS DR","location":{"x":6077817.0909748673,"y":2116084.6054629385},"score":62.299999999999997,"attributes":{}},{"address":"1589
+        CAMPUS DR","location":{"x":6056563.5132270753,"y":2147971.3293966353},"score":60.770000000000003,"attributes":{}},{"address":"1519
+        CAMPUS DR","location":{"x":6056009.6297065616,"y":2148114.623668775},"score":60.75,"attributes":{}},{"address":"1459
+        CAMPUS DR","location":{"x":6055930.0423784852,"y":2148633.1048852652},"score":60.729999999999997,"attributes":{}},{"address":"1409
+        CAMPUS DR","location":{"x":6055736.1253222972,"y":2149076.6275096685},"score":60.719999999999999,"attributes":{}},{"address":"1399
+        CAMPUS DR","location":{"x":6055928.4189544767,"y":2149255.8824218363},"score":60.719999999999999,"attributes":{}},{"address":"1299
+        CAMPUS DR","location":{"x":6055402.4526819885,"y":2149690.5448222458},"score":60.700000000000003,"attributes":{}},{"address":"1249
+        CAMPUS DR","location":{"x":6055277.4672098756,"y":2150105.5347746313},"score":60.68,"attributes":{}}]}'
     http_version: 
-  recorded_at: Mon, 08 May 2017 22:37:08 GMT
+  recorded_at: Mon, 08 May 2017 22:37:07 GMT
 - request:
     method: get
-    uri: http://mapgis.oaklandnet.com/ArcGIS/rest/services/StreetSweepNEW/MapServer/identify?f=json&geometry=%7B%22x%22:6053955.694216639,%22y%22:2122717.6854051203,%22spatialReference%22:%7B%22wkid%22:2227%7D%7D&imageDisplay=1322,529,96&mapExtent=%7B%22xmin%22:6050955,%22ymin%22:2119717,%22xmax%22:6056955,%22ymax%22:2125717,%22spatialReference%22:%7B%22wkid%22:2227%7D%7D&returnGeometry=false&tolerance=3
+    uri: http://mapgis.oaklandnet.com/ArcGIS/rest/services/StreetSweepNEW/MapServer/identify?f=json&geometry=%7B%22x%22:6078550.844639555,%22y%22:2116242.8490470946,%22spatialReference%22:%7B%22wkid%22:2227%7D%7D&imageDisplay=1322,529,96&mapExtent=%7B%22xmin%22:6075550,%22ymin%22:2113242,%22xmax%22:6081550,%22ymax%22:2119242,%22spatialReference%22:%7B%22wkid%22:2227%7D%7D&returnGeometry=false&tolerance=3
     body:
       encoding: US-ASCII
       string: ''
@@ -597,85 +630,22 @@ http_interactions:
       Content-Type:
       - text/plain;charset=utf-8
       Etag:
-      - "-1272156876"
+      - "-1743985047"
       Server:
       - Microsoft-IIS/7.5
       X-Powered-By:
       - ASP.NET
       Date:
-      - Mon, 08 May 2017 22:37:08 GMT
+      - Mon, 08 May 2017 22:37:07 GMT
       Content-Length:
-      - '606'
+      - '709'
     body:
       encoding: ASCII-8BIT
-      string: '{"results":[{"layerId":0,"layerName":"StreetSweepingRoutes","value":"Lenox","displayFieldName":"NAME","attributes":{"OBJECTID":"2169","Shape":"Polyline","DYNAMAP_ID":"469172265","L_F_ADD":"200","L_T_ADD":"298","R_F_ADD":"201","R_T_ADD":"299","PREFIX":"","NAME":"Lenox","TYPE":"Ave","SUFFIX":"","FCC":"A41","POSTAL_L":"94610","POSTAL_R":"94610","ACC":"5","NAME_TYPE":"R","SHIELD":"","HWY_NUM":"","SEG_LEN":"0.0936","SPEED":"25","ONE_WAY":"","F_ZLEV":"0","T_ZLEV":"0","FT_COST":"0.22464","TF_COST":"0.22464","FT_DIR":"","TF_DIR":"","NAME_FLAG":"3","NOTES":"Null","ROUTE":"3B","DAY_ODD":"2nd
-        and 4th Mon","TIME_ODD":"9:00AM-12:00PM","DAY_EVEN":"2nd and 4th Tues","TIME_EVEN":"9:00AM-12:00PM","MAPNO":"3B","DOUBLECK":"Null","SIDEOFSTREET":"Null","Shape_Length":"494.335355"}}]}'
+      string: '{"results":[{"layerId":0,"layerName":"StreetSweepingRoutes","value":"Campus","displayFieldName":"NAME","attributes":{"OBJECTID":"6743","Shape":"Polyline","DYNAMAP_ID":"515750369","L_F_ADD":"12000","L_T_ADD":"12030","R_F_ADD":"12001","R_T_ADD":"12031","PREFIX":"","NAME":"Campus","TYPE":"Dr","SUFFIX":"","FCC":"A41","POSTAL_L":"94619","POSTAL_R":"94619","ACC":"4","NAME_TYPE":"R","SHIELD":"","HWY_NUM":"","SEG_LEN":"0.1217","SPEED":"25","ONE_WAY":"","F_ZLEV":"0","T_ZLEV":"0","FT_COST":"0.29225","TF_COST":"0.29225","FT_DIR":"","TF_DIR":"","NAME_FLAG":"3","NOTES":"Null","ROUTE":"D","DAY_ODD":"No
+        Sweeping (Uncontrol Condition)","TIME_ODD":"NA","DAY_EVEN":"No Sweeping (Uncontrol
+        Condition)","TIME_EVEN":"NA","MAPNO":"Null","DOUBLECK":"Null","SIDEOFSTREET":"Null","Shape_Length":"644.531957"}},{"layerId":0,"layerName":"StreetSweepingRoutes","value":"Driveway","displayFieldName":"NAME","attributes":{"OBJECTID":"18301","Shape":"Polyline","DYNAMAP_ID":"499408514","L_F_ADD":"","L_T_ADD":"","R_F_ADD":"","R_T_ADD":"","PREFIX":"","NAME":"Driveway","TYPE":"","SUFFIX":"","FCC":"A74","POSTAL_L":"94619","POSTAL_R":"94619","ACC":"5","NAME_TYPE":"R","SHIELD":"","HWY_NUM":"","SEG_LEN":"0.1289","SPEED":"15","ONE_WAY":"","F_ZLEV":"0","T_ZLEV":"0","FT_COST":"0.51587","TF_COST":"0.51587","FT_DIR":"","TF_DIR":"","NAME_FLAG":"1","NOTES":"Null","ROUTE":"D","DAY_ODD":"No
+        Sweeping (Uncontrol Condition)","TIME_ODD":"NA","DAY_EVEN":"No Sweeping (Uncontrol
+        Condition)","TIME_EVEN":"NA","MAPNO":"Null","DOUBLECK":"Null","SIDEOFSTREET":"Null","Shape_Length":"682.088215"}}]}'
     http_version: 
-  recorded_at: Mon, 08 May 2017 22:37:08 GMT
-- request:
-    method: post
-    uri: https://api.twilio.com/2010-04-01/Accounts/AC8b64e42d768f4f70906099b8a0d4fcf1/Messages.json
-    body:
-      encoding: US-ASCII
-      string: From=%2B13303575740&To=%2B15107596248&Body=You%27re+parked+in+a+street+sweeping+zone%21
-    headers:
-      Accept:
-      - application/json
-      Accept-Charset:
-      - utf-8
-      User-Agent:
-      - twilio-ruby/4.13.0 (ruby/x86_64-darwin16 2.3.4-p301)
-      Accept-Encoding:
-      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
-      Authorization:
-      - Basic QUM4YjY0ZTQyZDc2OGY0ZjcwOTA2MDk5YjhhMGQ0ZmNmMTo0MTcwNzFkZTdlZjMyYmExOTc0MWI5NTRjYWU3MWE2YQ==
-      Content-Type:
-      - application/x-www-form-urlencoded
-  response:
-    status:
-      code: 201
-      message: CREATED
-    headers:
-      Access-Control-Allow-Credentials:
-      - 'true'
-      Access-Control-Allow-Headers:
-      - Accept, Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match,
-        If-Unmodified-Since
-      Access-Control-Allow-Methods:
-      - GET, POST, DELETE, OPTIONS
-      Access-Control-Allow-Origin:
-      - "*"
-      Access-Control-Expose-Headers:
-      - ETag
-      Content-Type:
-      - application/json; charset=utf-8
-      Date:
-      - Mon, 08 May 2017 22:37:09 GMT
-      Strict-Transport-Security:
-      - max-age=15768000
-      Twilio-Request-Duration:
-      - '0.270'
-      Twilio-Request-Id:
-      - RQ142855ecc5a54334b23007ae9dbe128c
-      X-Powered-By:
-      - AT-5000
-      X-Shenanigans:
-      - none
-      Content-Length:
-      - '842'
-      Connection:
-      - keep-alive
-    body:
-      encoding: UTF-8
-      string: '{"sid": "SM1e0b5572a888448b9b3afebc52ac9f92", "date_created": "Mon,
-        08 May 2017 22:37:09 +0000", "date_updated": "Mon, 08 May 2017 22:37:09 +0000",
-        "date_sent": null, "account_sid": "AC8b64e42d768f4f70906099b8a0d4fcf1", "to":
-        "+15107596248", "from": "+13303575740", "messaging_service_sid": null, "body":
-        "Sent from your Twilio trial account - You''re parked in a street sweeping
-        zone!", "status": "queued", "num_segments": "1", "num_media": "0", "direction":
-        "outbound-api", "api_version": "2010-04-01", "price": null, "price_unit":
-        "USD", "error_code": null, "error_message": null, "uri": "/2010-04-01/Accounts/AC8b64e42d768f4f70906099b8a0d4fcf1/Messages/SM1e0b5572a888448b9b3afebc52ac9f92.json",
-        "subresource_uris": {"media": "/2010-04-01/Accounts/AC8b64e42d768f4f70906099b8a0d4fcf1/Messages/SM1e0b5572a888448b9b3afebc52ac9f92/Media.json"}}'
-    http_version: 
-  recorded_at: Mon, 08 May 2017 22:37:09 GMT
+  recorded_at: Mon, 08 May 2017 22:37:07 GMT
 recorded_with: VCR 3.0.3

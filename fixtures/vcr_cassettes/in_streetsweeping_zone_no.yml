@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: get
-    uri: https://maps.googleapis.com/maps/api/geocode/json?key=AIzaSyDV9bUiD_7qLrOz4bTwDj1Riw4k4evuY58&latlng=37.795976,-122.170223
+    uri: https://maps.googleapis.com/maps/api/geocode/json?key=AIzaSyDV9bUiD_7qLrOz4bTwDj1Riw4k4evuY58&latlng=37.776164,-122.1962782
     body:
       encoding: US-ASCII
       string: ''
@@ -21,9 +21,9 @@ http_interactions:
       Content-Type:
       - application/json; charset=UTF-8
       Date:
-      - Mon, 08 May 2017 22:21:47 GMT
+      - Mon, 08 May 2017 22:37:07 GMT
       Expires:
-      - Tue, 09 May 2017 22:21:47 GMT
+      - Tue, 09 May 2017 22:37:07 GMT
       Cache-Control:
       - public, max-age=86400
       Vary:
@@ -33,7 +33,7 @@ http_interactions:
       Server:
       - mafe
       Content-Length:
-      - '1494'
+      - '1655'
       X-Xss-Protection:
       - 1; mode=block
       X-Frame-Options:
@@ -48,18 +48,18 @@ http_interactions:
               {
                  "address_components" : [
                     {
-                       "long_name" : "12000",
-                       "short_name" : "12000",
+                       "long_name" : "2625",
+                       "short_name" : "2625",
                        "types" : [ "street_number" ]
                     },
                     {
-                       "long_name" : "Campus Drive",
-                       "short_name" : "Campus Dr",
+                       "long_name" : "Kingsland Avenue",
+                       "short_name" : "Kingsland Ave",
                        "types" : [ "route" ]
                     },
                     {
-                       "long_name" : "Skyline-Hillcrest Estates",
-                       "short_name" : "Skyline-Hillcrest Estates",
+                       "long_name" : "Maxwell Park",
+                       "short_name" : "Maxwell Park",
                        "types" : [ "neighborhood", "political" ]
                     },
                     {
@@ -86,34 +86,118 @@ http_interactions:
                        "long_name" : "94619",
                        "short_name" : "94619",
                        "types" : [ "postal_code" ]
+                    },
+                    {
+                       "long_name" : "3219",
+                       "short_name" : "3219",
+                       "types" : [ "postal_code_suffix" ]
                     }
                  ],
-                 "formatted_address" : "12000 Campus Dr, Oakland, CA 94619, USA",
+                 "formatted_address" : "2625 Kingsland Ave, Oakland, CA 94619, USA",
                  "geometry" : {
+                    "bounds" : {
+                       "northeast" : {
+                          "lat" : 37.7762084,
+                          "lng" : -122.1962013
+                       },
+                       "southwest" : {
+                          "lat" : 37.7761196,
+                          "lng" : -122.1963551
+                       }
+                    },
                     "location" : {
-                       "lat" : 37.7959763,
-                       "lng" : -122.1702232
+                       "lat" : 37.776164,
+                       "lng" : -122.1962782
                     },
                     "location_type" : "ROOFTOP",
                     "viewport" : {
                        "northeast" : {
-                          "lat" : 37.7973252802915,
-                          "lng" : -122.1688742197085
+                          "lat" : 37.7775129802915,
+                          "lng" : -122.1949292197085
                        },
                        "southwest" : {
-                          "lat" : 37.7946273197085,
-                          "lng" : -122.1715721802915
+                          "lat" : 37.77481501970851,
+                          "lng" : -122.1976271802915
                        }
                     }
                  },
-                 "place_id" : "ChIJG5Ytep6Ij4ARItXWxtc5WPY",
+                 "place_id" : "ChIJW9YxJxOGj4AR3UPwU3oXpxI",
+                 "types" : [ "premise" ]
+              },
+              {
+                 "address_components" : [
+                    {
+                       "long_name" : "2626",
+                       "short_name" : "2626",
+                       "types" : [ "street_number" ]
+                    },
+                    {
+                       "long_name" : "Cole Street",
+                       "short_name" : "Cole St",
+                       "types" : [ "route" ]
+                    },
+                    {
+                       "long_name" : "Maxwell Park",
+                       "short_name" : "Maxwell Park",
+                       "types" : [ "neighborhood", "political" ]
+                    },
+                    {
+                       "long_name" : "Oakland",
+                       "short_name" : "Oakland",
+                       "types" : [ "locality", "political" ]
+                    },
+                    {
+                       "long_name" : "Alameda County",
+                       "short_name" : "Alameda County",
+                       "types" : [ "administrative_area_level_2", "political" ]
+                    },
+                    {
+                       "long_name" : "California",
+                       "short_name" : "CA",
+                       "types" : [ "administrative_area_level_1", "political" ]
+                    },
+                    {
+                       "long_name" : "United States",
+                       "short_name" : "US",
+                       "types" : [ "country", "political" ]
+                    },
+                    {
+                       "long_name" : "94601",
+                       "short_name" : "94601",
+                       "types" : [ "postal_code" ]
+                    },
+                    {
+                       "long_name" : "5548",
+                       "short_name" : "5548",
+                       "types" : [ "postal_code_suffix" ]
+                    }
+                 ],
+                 "formatted_address" : "2626 Cole St, Oakland, CA 94601, USA",
+                 "geometry" : {
+                    "location" : {
+                       "lat" : 37.7763621,
+                       "lng" : -122.1965195
+                    },
+                    "location_type" : "ROOFTOP",
+                    "viewport" : {
+                       "northeast" : {
+                          "lat" : 37.7777110802915,
+                          "lng" : -122.1951705197085
+                       },
+                       "southwest" : {
+                          "lat" : 37.7750131197085,
+                          "lng" : -122.1978684802915
+                       }
+                    }
+                 },
+                 "place_id" : "ChIJb9OUJROGj4ARZCE9AWU_S4k",
                  "types" : [ "street_address" ]
               },
               {
                  "address_components" : [
                     {
-                       "long_name" : "Skyline-Hillcrest Estates",
-                       "short_name" : "Skyline-Hillcrest Estates",
+                       "long_name" : "Maxwell Park",
+                       "short_name" : "Maxwell Park",
                        "types" : [ "neighborhood", "political" ]
                     },
                     {
@@ -135,42 +219,37 @@ http_interactions:
                        "long_name" : "United States",
                        "short_name" : "US",
                        "types" : [ "country", "political" ]
-                    },
-                    {
-                       "long_name" : "94619",
-                       "short_name" : "94619",
-                       "types" : [ "postal_code" ]
                     }
                  ],
-                 "formatted_address" : "Skyline-Hillcrest Estates, Oakland, CA 94619, USA",
+                 "formatted_address" : "Maxwell Park, Oakland, CA, USA",
                  "geometry" : {
                     "bounds" : {
                        "northeast" : {
-                          "lat" : 37.8056979,
-                          "lng" : -122.1386501
+                          "lat" : 37.786427,
+                          "lng" : -122.1870769
                        },
                        "southwest" : {
-                          "lat" : 37.7804669,
-                          "lng" : -122.1721769
+                          "lat" : 37.7721269,
+                          "lng" : -122.2042782
                        }
                     },
                     "location" : {
-                       "lat" : 37.7933719,
-                       "lng" : -122.1589938
+                       "lat" : 37.7813703,
+                       "lng" : -122.1944705
                     },
                     "location_type" : "APPROXIMATE",
                     "viewport" : {
                        "northeast" : {
-                          "lat" : 37.8056979,
-                          "lng" : -122.1386501
+                          "lat" : 37.786427,
+                          "lng" : -122.1870769
                        },
                        "southwest" : {
-                          "lat" : 37.7804669,
-                          "lng" : -122.1721769
+                          "lat" : 37.7721269,
+                          "lng" : -122.2042782
                        }
                     }
                  },
-                 "place_id" : "ChIJ-4HQ-b6Ij4AR1sqw91_fg5k",
+                 "place_id" : "ChIJ-VNylxSGj4ARjpVxw_7-SVA",
                  "types" : [ "neighborhood", "political" ]
               },
               {
@@ -525,10 +604,10 @@ http_interactions:
            "status" : "OK"
         }
     http_version: 
-  recorded_at: Mon, 08 May 2017 22:21:47 GMT
+  recorded_at: Mon, 08 May 2017 22:37:07 GMT
 - request:
     method: get
-    uri: http://mapgis.oaklandnet.com/ArcGIS/rest/services/OaklandStreets/GeocodeServer/findAddressCandidates?Street=12000%20Campus%20Dr&f=json&outFields=Loc_name&outSR%5Bwkid%5D=2227
+    uri: http://mapgis.oaklandnet.com/ArcGIS/rest/services/OaklandStreets/GeocodeServer/findAddressCandidates?Street=2625%20Kingsland%20Ave&f=json&outFields=Loc_name&outSR%5Bwkid%5D=2227
     body:
       encoding: US-ASCII
       string: ''
@@ -547,71 +626,59 @@ http_interactions:
       Content-Type:
       - text/plain; charset=utf-8
       Etag:
-      - '1071442828'
+      - '594260344'
       Server:
       - Microsoft-IIS/7.5
       X-Powered-By:
       - ASP.NET
       Date:
-      - Mon, 08 May 2017 22:21:47 GMT
+      - Mon, 08 May 2017 22:37:07 GMT
       Content-Length:
-      - '1983'
+      - '1518'
     body:
       encoding: ASCII-8BIT
-      string: '{"spatialReference":{"wkid":2227},"candidates":[{"address":"12000 CAMPUS
-        DR","location":{"x":6078550.8446395546,"y":2116242.8490470946},"score":100,"attributes":{}},{"address":"12001
-        CAMPUS DR","location":{"x":6078557.0530235618,"y":2116203.3337830603},"score":79,"attributes":{}},{"address":"11998
-        CAMPUS DR","location":{"x":6078468.0003514737,"y":2116224.3610470742},"score":68.5,"attributes":{}},{"address":"12500
-        CAMPUS DR","location":{"x":6079804.2395847142,"y":2114890.3291098326},"score":68.269999999999996,"attributes":{}},{"address":"12548
-        CAMPUS DR","location":{"x":6079749.4804806709,"y":2114731.3366616815},"score":68.239999999999995,"attributes":{}},{"address":"12650
-        CAMPUS DR","location":{"x":6079626.5862725526,"y":2114371.3981013447},"score":68.200000000000003,"attributes":{}},{"address":"12800
-        CAMPUS DR","location":{"x":6079710.1338566244,"y":2113511.2633165419},"score":68.129999999999995,"attributes":{}},{"address":"12900
-        CAMPUS DR","location":{"x":6079834.025632754,"y":2113334.5609163791},"score":68.090000000000003,"attributes":{}},{"address":"13000
-        CAMPUS DR","location":{"x":6080162.8303050548,"y":2113183.9488842487},"score":68.040000000000006,"attributes":{}},{"address":"13330
-        CAMPUS DR","location":{"x":6081122.3638099432,"y":2112858.0850759447},"score":67.900000000000006,"attributes":{}},{"address":"13348
-        CAMPUS DR","location":{"x":6081199.8383700252,"y":2112597.2510277033},"score":67.890000000000001,"attributes":{}},{"address":"13356
-        CAMPUS DR","location":{"x":6081374.4520661831,"y":2112514.7702596188},"score":67.890000000000001,"attributes":{}},{"address":"13500
-        CAMPUS DR","location":{"x":6082754.5878754705,"y":2111235.1840184331},"score":67.829999999999998,"attributes":{}},{"address":"13686
-        CAMPUS DR","location":{"x":6083429.9587560892,"y":2110307.0423215628},"score":67.75,"attributes":{}},{"address":"13700
-        CAMPUS DR","location":{"x":6083696.9398123473,"y":2109992.219537273},"score":67.75,"attributes":{}},{"address":"13846
-        CAMPUS DR","location":{"x":6085216.9097977579,"y":2108905.9957282543},"score":67.689999999999998,"attributes":{}},{"address":"13950
-        CAMPUS DR","location":{"x":6086297.978406772,"y":2108555.9291039407},"score":67.650000000000006,"attributes":{}},{"address":"8000
-        CAMPUS DR","location":{"x":6077823.3295668811,"y":2116124.115926981},"score":66.590000000000003,"attributes":{}},{"address":"1590
-        CAMPUS DR","location":{"x":6056523.9274350405,"y":2147977.0708366483},"score":63.530000000000001,"attributes":{}},{"address":"1520
-        CAMPUS DR","location":{"x":6055969.7620585263,"y":2148111.3721487671},"score":63.5,"attributes":{}},{"address":"1458
-        CAMPUS DR","location":{"x":6055920.9263464808,"y":2148594.1575572193},"score":63.469999999999999,"attributes":{}},{"address":"1408
-        CAMPUS DR","location":{"x":6055697.1230822653,"y":2149067.7491736561},"score":63.439999999999998,"attributes":{}},{"address":"1398
-        CAMPUS DR","location":{"x":6055901.2568424642,"y":2149226.5188378096},"score":63.439999999999998,"attributes":{}},{"address":"1298
-        CAMPUS DR","location":{"x":6055366.2730339617,"y":2149673.4851102233},"score":63.390000000000001,"attributes":{}},{"address":"1248
-        CAMPUS DR","location":{"x":6055237.9098338336,"y":2150111.4687906355},"score":63.369999999999997,"attributes":{}},{"address":"11999
-        CAMPUS DR","location":{"x":6078479.6560314894,"y":2116186.0969190449},"score":63.25,"attributes":{}},{"address":"12501
-        CAMPUS DR","location":{"x":6079765.9586246908,"y":2114901.9293658435},"score":63.130000000000003,"attributes":{}},{"address":"12549
-        CAMPUS DR","location":{"x":6079711.9591366351,"y":2114745.1984857023},"score":63.119999999999997,"attributes":{}},{"address":"12651
-        CAMPUS DR","location":{"x":6079589.3057605177,"y":2114385.8952533603},"score":63.100000000000001,"attributes":{}},{"address":"12801
-        CAMPUS DR","location":{"x":6079671.8752325922,"y":2113499.5893325359},"score":63.07,"attributes":{}},{"address":"12901
-        CAMPUS DR","location":{"x":6079810.2328007221,"y":2113302.406548351},"score":63.039999999999999,"attributes":{}},{"address":"13001
-        CAMPUS DR","location":{"x":6080147.2029130459,"y":2113147.1278922111},"score":63.020000000000003,"attributes":{}},{"address":"13331
-        CAMPUS DR","location":{"x":6081082.4481619149,"y":2112860.6820679456},"score":62.950000000000003,"attributes":{}},{"address":"13347
-        CAMPUS DR","location":{"x":6081172.1944019943,"y":2112568.3406276703},"score":62.950000000000003,"attributes":{}},{"address":"13355
-        CAMPUS DR","location":{"x":6081366.320418179,"y":2112475.6055235863},"score":62.950000000000003,"attributes":{}},{"address":"13501
-        CAMPUS DR","location":{"x":6082719.1325794309,"y":2111216.6659384072},"score":62.909999999999997,"attributes":{}},{"address":"13685
-        CAMPUS DR","location":{"x":6083397.5068520606,"y":2110283.6569775492},"score":62.880000000000003,"attributes":{}},{"address":"13701
-        CAMPUS DR","location":{"x":6083673.3390443176,"y":2109959.9239852428},"score":62.869999999999997,"attributes":{}},{"address":"13845
-        CAMPUS DR","location":{"x":6085205.0537337512,"y":2108867.7931682169},"score":62.840000000000003,"attributes":{}},{"address":"13951
-        CAMPUS DR","location":{"x":6086261.5640067309,"y":2108539.3763999194},"score":62.82,"attributes":{}},{"address":"8001
-        CAMPUS DR","location":{"x":6077817.0909748673,"y":2116084.6054629385},"score":62.299999999999997,"attributes":{}},{"address":"1589
-        CAMPUS DR","location":{"x":6056563.5132270753,"y":2147971.3293966353},"score":60.770000000000003,"attributes":{}},{"address":"1519
-        CAMPUS DR","location":{"x":6056009.6297065616,"y":2148114.623668775},"score":60.75,"attributes":{}},{"address":"1459
-        CAMPUS DR","location":{"x":6055930.0423784852,"y":2148633.1048852652},"score":60.729999999999997,"attributes":{}},{"address":"1409
-        CAMPUS DR","location":{"x":6055736.1253222972,"y":2149076.6275096685},"score":60.719999999999999,"attributes":{}},{"address":"1399
-        CAMPUS DR","location":{"x":6055928.4189544767,"y":2149255.8824218363},"score":60.719999999999999,"attributes":{}},{"address":"1299
-        CAMPUS DR","location":{"x":6055402.4526819885,"y":2149690.5448222458},"score":60.700000000000003,"attributes":{}},{"address":"1249
-        CAMPUS DR","location":{"x":6055277.4672098756,"y":2150105.5347746313},"score":60.68,"attributes":{}}]}'
+      string: '{"spatialReference":{"wkid":2227},"candidates":[{"address":"2625 KINGSLAND
+        AV","location":{"x":6071457.0461049378,"y":2109465.320336774},"score":100,"attributes":{}},{"address":"2626
+        KINGSLAND AV","location":{"x":6071492.0457209796,"y":2109445.9138727635},"score":79,"attributes":{}},{"address":"2629
+        KINGSLAND AV","location":{"x":6071471.9353209585,"y":2109490.6618408114},"score":68.5,"attributes":{}},{"address":"2649
+        KINGSLAND AV","location":{"x":6071520.4980090111,"y":2109651.7078569531},"score":68.480000000000004,"attributes":{}},{"address":"2599
+        KINGSLAND AV","location":{"x":6071296.0458488017,"y":2109233.2131365687},"score":68.480000000000004,"attributes":{}},{"address":"2701
+        KINGSLAND AV","location":{"x":6071507.6106489897,"y":2109826.7364011109},"score":68.439999999999998,"attributes":{}},{"address":"2793
+        KINGSLAND AV","location":{"x":6071573.9104890525,"y":2110243.1854895055},"score":68.359999999999999,"attributes":{}},{"address":"2801
+        KINGSLAND AV","location":{"x":6071558.4975610375,"y":2110545.0329137892},"score":68.359999999999999,"attributes":{}},{"address":"2449
+        KINGSLAND AV","location":{"x":6071248.5902967453,"y":2108898.8791202456},"score":68.349999999999994,"attributes":{}},{"address":"2901
+        KINGSLAND AV","location":{"x":6071730.2651772052,"y":2110812.4687540382},"score":68.280000000000001,"attributes":{}},{"address":"3001
+        KINGSLAND AV","location":{"x":6071778.6941692382,"y":2111106.0327863097},"score":68.200000000000003,"attributes":{}},{"address":"3201
+        KINGSLAND AV","location":{"x":6072395.0786178261,"y":2111684.4555068463},"score":68.040000000000006,"attributes":{}},{"address":"3301
+        KINGSLAND AV","location":{"x":6072571.4149379879,"y":2111784.3525949419},"score":67.969999999999999,"attributes":{}},{"address":"3401
+        KINGSLAND AV","location":{"x":6072691.0147460997,"y":2111964.5401791036},"score":67.890000000000001,"attributes":{}},{"address":"3501
+        KINGSLAND AV","location":{"x":6072871.9034502655,"y":2112251.2297793776},"score":67.819999999999993,"attributes":{}},{"address":"2630
+        KINGSLAND AV","location":{"x":6071507.0746489912,"y":2109471.5508647859},"score":63.25,"attributes":{}},{"address":"2650
+        KINGSLAND AV","location":{"x":6071559.3031930476,"y":2109642.0044329464},"score":63.240000000000002,"attributes":{}},{"address":"2598
+        KINGSLAND AV","location":{"x":6071334.5066488236,"y":2109222.2236325592},"score":63.240000000000002,"attributes":{}},{"address":"2700
+        KINGSLAND AV","location":{"x":6071547.3518970311,"y":2109822.193681106},"score":63.219999999999999,"attributes":{}},{"address":"2792
+        KINGSLAND AV","location":{"x":6071613.5711610913,"y":2110237.9862574935},"score":63.18,"attributes":{}},{"address":"2800
+        KINGSLAND AV","location":{"x":6071594.7392890751,"y":2110528.1054257751},"score":63.18,"attributes":{}},{"address":"2450
+        KINGSLAND AV","location":{"x":6071287.6870007813,"y":2108907.3317922652},"score":63.18,"attributes":{}},{"address":"2900
+        KINGSLAND AV","location":{"x":6071768.9851772338,"y":2110802.4307380319},"score":63.140000000000001,"attributes":{}},{"address":"3000
+        KINGSLAND AV","location":{"x":6071809.1115772724,"y":2111080.0562102795},"score":63.100000000000001,"attributes":{}},{"address":"3200
+        KINGSLAND AV","location":{"x":6072414.6612098366,"y":2111649.5768508166},"score":63.020000000000003,"attributes":{}},{"address":"3300
+        KINGSLAND AV","location":{"x":6072596.0670340061,"y":2111752.8521789163},"score":62.979999999999997,"attributes":{}},{"address":"3400
+        KINGSLAND AV","location":{"x":6072724.8560901284,"y":2111943.2150590867},"score":62.950000000000003,"attributes":{}},{"address":"3500
+        KINGSLAND AV","location":{"x":6072902.7653382868,"y":2112225.7829313576},"score":62.909999999999997,"attributes":{}},{"address":"KINGSLAND
+        AV","location":{"x":6071346.3454328477,"y":2109254.5132965893},"score":53.799999999999997,"attributes":{}},{"address":"KINGSLAND
+        AV","location":{"x":6071555.6780410409,"y":2109639.4109609425},"score":53.799999999999997,"attributes":{}},{"address":"KINGSLAND
+        AV","location":{"x":6071583.4802170694,"y":2109668.1692329645},"score":53.799999999999997,"attributes":{}},{"address":"KINGSLAND
+        AV","location":{"x":6071562.2902650386,"y":2109618.7927209288},"score":53.799999999999997,"attributes":{}},{"address":"KINGSLAND
+        AV","location":{"x":6071309.1544568092,"y":2109269.2385445982},"score":53.799999999999997,"attributes":{}},{"address":"KINGSLAND
+        AV","location":{"x":6071541.8306170255,"y":2109584.4212008864},"score":53.799999999999997,"attributes":{}},{"address":"99
+        KINGSLAND PL","location":{"x":6072583.2310019881,"y":2112258.7320513874},"score":53.75,"attributes":{}},{"address":"98
+        KINGSLAND PL","location":{"x":6072619.6580740213,"y":2112242.207123369},"score":49.549999999999997,"attributes":{}}]}'
     http_version: 
-  recorded_at: Mon, 08 May 2017 22:21:47 GMT
+  recorded_at: Mon, 08 May 2017 22:37:07 GMT
 - request:
     method: get
-    uri: http://mapgis.oaklandnet.com/ArcGIS/rest/services/StreetSweepNEW/MapServer/identify?f=json&geometry=%7B%22x%22:6078550.844639555,%22y%22:2116242.8490470946,%22spatialReference%22:%7B%22wkid%22:2227%7D%7D&imageDisplay=1322,529,96&mapExtent=%7B%22xmin%22:6075550,%22ymin%22:2113242,%22xmax%22:6081550,%22ymax%22:2119242,%22spatialReference%22:%7B%22wkid%22:2227%7D%7D&returnGeometry=false&tolerance=3
+    uri: http://mapgis.oaklandnet.com/ArcGIS/rest/services/StreetSweepNEW/MapServer/identify?f=json&geometry=%7B%22x%22:6071457.046104938,%22y%22:2109465.320336774,%22spatialReference%22:%7B%22wkid%22:2227%7D%7D&imageDisplay=1322,529,96&mapExtent=%7B%22xmin%22:6068457,%22ymin%22:2106465,%22xmax%22:6074457,%22ymax%22:2112465,%22spatialReference%22:%7B%22wkid%22:2227%7D%7D&returnGeometry=false&tolerance=3
     body:
       encoding: US-ASCII
       string: ''
@@ -630,22 +697,23 @@ http_interactions:
       Content-Type:
       - text/plain;charset=utf-8
       Etag:
-      - "-1743985047"
+      - '198388983'
       Server:
       - Microsoft-IIS/7.5
       X-Powered-By:
       - ASP.NET
       Date:
-      - Mon, 08 May 2017 22:21:47 GMT
+      - Mon, 08 May 2017 22:37:07 GMT
       Content-Length:
-      - '709'
+      - '808'
     body:
       encoding: ASCII-8BIT
-      string: '{"results":[{"layerId":0,"layerName":"StreetSweepingRoutes","value":"Campus","displayFieldName":"NAME","attributes":{"OBJECTID":"6743","Shape":"Polyline","DYNAMAP_ID":"515750369","L_F_ADD":"12000","L_T_ADD":"12030","R_F_ADD":"12001","R_T_ADD":"12031","PREFIX":"","NAME":"Campus","TYPE":"Dr","SUFFIX":"","FCC":"A41","POSTAL_L":"94619","POSTAL_R":"94619","ACC":"4","NAME_TYPE":"R","SHIELD":"","HWY_NUM":"","SEG_LEN":"0.1217","SPEED":"25","ONE_WAY":"","F_ZLEV":"0","T_ZLEV":"0","FT_COST":"0.29225","TF_COST":"0.29225","FT_DIR":"","TF_DIR":"","NAME_FLAG":"3","NOTES":"Null","ROUTE":"D","DAY_ODD":"No
-        Sweeping (Uncontrol Condition)","TIME_ODD":"NA","DAY_EVEN":"No Sweeping (Uncontrol
-        Condition)","TIME_EVEN":"NA","MAPNO":"Null","DOUBLECK":"Null","SIDEOFSTREET":"Null","Shape_Length":"644.531957"}},{"layerId":0,"layerName":"StreetSweepingRoutes","value":"Driveway","displayFieldName":"NAME","attributes":{"OBJECTID":"18301","Shape":"Polyline","DYNAMAP_ID":"499408514","L_F_ADD":"","L_T_ADD":"","R_F_ADD":"","R_T_ADD":"","PREFIX":"","NAME":"Driveway","TYPE":"","SUFFIX":"","FCC":"A74","POSTAL_L":"94619","POSTAL_R":"94619","ACC":"5","NAME_TYPE":"R","SHIELD":"","HWY_NUM":"","SEG_LEN":"0.1289","SPEED":"15","ONE_WAY":"","F_ZLEV":"0","T_ZLEV":"0","FT_COST":"0.51587","TF_COST":"0.51587","FT_DIR":"","TF_DIR":"","NAME_FLAG":"1","NOTES":"Null","ROUTE":"D","DAY_ODD":"No
-        Sweeping (Uncontrol Condition)","TIME_ODD":"NA","DAY_EVEN":"No Sweeping (Uncontrol
-        Condition)","TIME_EVEN":"NA","MAPNO":"Null","DOUBLECK":"Null","SIDEOFSTREET":"Null","Shape_Length":"682.088215"}}]}'
+      string: '{"results":[{"layerId":0,"layerName":"StreetSweepingRoutes","value":"Kingsland","displayFieldName":"NAME","attributes":{"OBJECTID":"5613","Shape":"Polyline","DYNAMAP_ID":"513544368","L_F_ADD":"2625","L_T_ADD":"2633","R_F_ADD":"2640","R_T_ADD":"2698","PREFIX":"","NAME":"Kingsland","TYPE":"Ave","SUFFIX":"","FCC":"A41","POSTAL_L":"94619","POSTAL_R":"94619","ACC":"5","NAME_TYPE":"R","SHIELD":"","HWY_NUM":"","SEG_LEN":"0.0099","SPEED":"25","ONE_WAY":"","F_ZLEV":"0","T_ZLEV":"0","FT_COST":"0.02377","TF_COST":"0.02377","FT_DIR":"","TF_DIR":"","NAME_FLAG":"3","NOTES":"Null","ROUTE":"5B","DAY_ODD":"1st
+        and 3rd Thurs","TIME_ODD":"9:00AM-12:00PM","DAY_EVEN":"1st and 3rd Wed","TIME_EVEN":"9:00AM-12:00PM","MAPNO":"5B","DOUBLECK":"Null","SIDEOFSTREET":"Null","Shape_Length":"52.264287"}},{"layerId":0,"layerName":"StreetSweepingRoutes","value":"El
+        Camile","displayFieldName":"NAME","attributes":{"OBJECTID":"5619","Shape":"Polyline","DYNAMAP_ID":"513544375","L_F_ADD":"5300","L_T_ADD":"5318","R_F_ADD":"5301","R_T_ADD":"5319","PREFIX":"","NAME":"El
+        Camile","TYPE":"Ave","SUFFIX":"","FCC":"A41","POSTAL_L":"94619","POSTAL_R":"94619","ACC":"5","NAME_TYPE":"R","SHIELD":"","HWY_NUM":"","SEG_LEN":"0.0184","SPEED":"25","ONE_WAY":"TF","F_ZLEV":"0","T_ZLEV":"0","FT_COST":"-1","TF_COST":"0.04431","FT_DIR":"","TF_DIR":"","NAME_FLAG":"3","NOTES":"Null","ROUTE":"5B","DAY_ODD":"1st
+        and 3rd Wed","TIME_ODD":"9:00AM-12:00PM","DAY_EVEN":"1st and 3rd Thurs","TIME_EVEN":"9:00AM-12:00PM","MAPNO":"5B","DOUBLECK":"Null","SIDEOFSTREET":"Null","Shape_Length":"97.554666"}},{"layerId":0,"layerName":"StreetSweepingRoutes","value":"Kingsland","displayFieldName":"NAME","attributes":{"OBJECTID":"15152","Shape":"Polyline","DYNAMAP_ID":"469177651","L_F_ADD":"2501","L_T_ADD":"2623","R_F_ADD":"2600","R_T_ADD":"2638","PREFIX":"","NAME":"Kingsland","TYPE":"Ave","SUFFIX":"","FCC":"A41","POSTAL_L":"94601","POSTAL_R":"94619","ACC":"5","NAME_TYPE":"R","SHIELD":"","HWY_NUM":"","SEG_LEN":"0.0524","SPEED":"25","ONE_WAY":"","F_ZLEV":"0","T_ZLEV":"0","FT_COST":"0.1259","TF_COST":"0.1259","FT_DIR":"","TF_DIR":"","NAME_FLAG":"3","NOTES":"Null","ROUTE":"5B","DAY_ODD":"1st
+        and 3rd Thurs","TIME_ODD":"9:00AM-12:00PM","DAY_EVEN":"1st and 3rd Wed","TIME_EVEN":"9:00AM-12:00PM","MAPNO":"5B","DOUBLECK":"Null","SIDEOFSTREET":"Null","Shape_Length":"277.008622"}}]}'
     http_version: 
-  recorded_at: Mon, 08 May 2017 22:21:47 GMT
+  recorded_at: Mon, 08 May 2017 22:37:07 GMT
 recorded_with: VCR 3.0.3

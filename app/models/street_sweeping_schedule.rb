@@ -10,11 +10,11 @@ class StreetSweepingSchedule
       @no_sweeping = true
     elsif matches = schedule.match(TWO_DAYS_REGEX)
       @days_of_month = matches.values_at(1, 3).collect(&:to_i)
-      @days_of_week = matches.values_at(5)
+      @day_name_abbreviations = matches.values_at(5)
     elsif matches = schedule.match(EVERY_REGEX)
-      @days_of_week = matches.to_a
+      @day_name_abbreviations = matches.to_a
     else
-      raise StreetSweepingDayParserError, schedule
+      raise StreetSweepingScheduleParserError, schedule
     end
   end
 
@@ -30,9 +30,25 @@ class StreetSweepingSchedule
 
   private
 
+  def days_of_week
+    map = {
+      'Sun' => 'Sunday',
+      'Mon' => 'Monday',
+      'Tues' => 'Tuesday',
+      'Wed' => 'Wednesday',
+      'Thurs' => 'Thursday',
+      'Fri' => 'Friday',
+      'Sat' => 'Saturday'
+    }
+
+    @day_name_abbreviations.collect do |abbr|
+      map[abbr]
+    end
+  end
+
   def day_of_week?(date)
-    @days_of_week.any? do |wday|
-      date.wday == Date::ABBR_DAYNAMES.index(wday)
+    days_of_week.any? do |day_name|
+      date.strftime('%A') == day_name
     end
   end
 

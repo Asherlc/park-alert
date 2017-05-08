@@ -9,7 +9,7 @@ class CurrentLocationController < ApplicationController
       message = twilio.account.messages.create(
         from: Rails.application.secrets.twilio[:number],
         :to => Rails.application.secrets.phone_number,
-        :body => "You're parked in a street sweeping zone!",
+        :body => "You're parked in a street sweeping zone!"
       )
     end
   end
